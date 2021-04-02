@@ -7,13 +7,12 @@
 <title>Formulário</title>
 </head>
 <body>
-	<c:import url="logout-parcial.jsp"/>
 	<form action="${linkServletEntrada }" method="post">
-		Nome:
-		<input type="text" name="nome"/>
-		Data Abertura:
-		<input type="text" name="data"/>
-		<input type="hidden"  name="acao" value="NovaEmpresa"/>
+		Login:
+		<input type="text" name="login"/>
+		Senha:
+		<input type="password" name="senha"/>
+		<input type="hidden"  name="acao" value="Login"/>
 		<input type="submit"/>
 	</form>
 </body>

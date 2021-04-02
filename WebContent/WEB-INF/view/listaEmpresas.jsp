@@ -9,6 +9,10 @@
 <html>
 <body>
 
+	<c:import url="logout-parcial.jsp"/>
+	Usuario Logado: ${usuarioLogado.login }
+
+	<br/>
 	<ul>
 		<c:forEach items="${empresas}" var="empresa">
 		
